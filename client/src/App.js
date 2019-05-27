@@ -75,7 +75,7 @@ class App extends Component {
   render() {
     return (
       <div className='container mt-4'>
-        <h4 className='display-3 text-center mb-4'>CSV File Upload</h4>
+        <h4 className='display-3 text-center mb-4'>CSV Expenses Upload</h4>
         {this.state.message ? <Message msg={this.state.message} /> : null}
         <FileUpload
           showMonthlyExpenses={this.showMonthlyExpenses}
